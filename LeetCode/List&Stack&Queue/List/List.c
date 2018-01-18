@@ -17,7 +17,7 @@
 
 #include "List.h"
 
-struct Node {
+struct ListNode {
     ElementType Element;
     Position Next;
 };
@@ -62,7 +62,7 @@ Position FindPrevious(ElementType X, List L) {
 
 void Insert(ElementType X, List L, Position P) {
     Position TmpCell;
-    TmpCell = malloc(sizeof(struct Node));
+    TmpCell = malloc(sizeof(struct ListNode));
     if (TmpCell == NULL) {
         printf("out of space");
     }

@@ -16,15 +16,15 @@
 
 #define ElementType int
 
-struct ListNode;
-typedef struct ListNode *Position;
+#include "List.h"
+
 struct HashTbl;
 typedef struct HashTbl *HashTable;
 
 HashTable InitializeTable(int TableSize);
 void DestroyTable(HashTable H);
-Position Find(ElementType Key, HashTable H);
-void Insert(ElementType Key, HashTable H);
+Position FindForHashTable(ElementType Key, HashTable H);
+void InsertForHashTable(ElementType Key, HashTable H);
 ElementType Retrieve(Position P);
 
 

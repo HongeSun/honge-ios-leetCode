@@ -32,8 +32,10 @@
 		B1A44BA11F72670300D5C483 /* majorityElement.c in Sources */ = {isa = PBXBuildFile; fileRef = B1A44B9F1F72670200D5C483 /* majorityElement.c */; };
 		B1A44BA41F72760E00D5C483 /* hashTable.c in Sources */ = {isa = PBXBuildFile; fileRef = B1A44BA21F72760E00D5C483 /* hashTable.c */; };
 		B1A885C91FB56AC00065B444 /* longestIncreasingPath.c in Sources */ = {isa = PBXBuildFile; fileRef = B1A885C71FB56AC00065B444 /* longestIncreasingPath.c */; };
-		B1ACF5152010885B00142E8C /* mergeTwoBinaryTress.c in Sources */ = {isa = PBXBuildFile; fileRef = B1ACF50C2010885B00142E8C /* mergeTwoBinaryTress.c */; };
+		B1ACF5152010885B00142E8C /* mergeTwoBinaryTrees.c in Sources */ = {isa = PBXBuildFile; fileRef = B1ACF50C2010885B00142E8C /* mergeTwoBinaryTrees.c */; };
 		B1ACF5162010885B00142E8C /* Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = B1ACF5142010885B00142E8C /* Tree.c */; };
+		B1ACF5232010A0AA00142E8C /* linkedListCycleII.c in Sources */ = {isa = PBXBuildFile; fileRef = B1ACF5212010A0AA00142E8C /* linkedListCycleII.c */; };
+		B1ACF5242010A47B00142E8C /* List.c in Sources */ = {isa = PBXBuildFile; fileRef = B1ACF5182010887A00142E8C /* List.c */; };
 		B1B444021F67AAB8002FB610 /* reverseString.c in Sources */ = {isa = PBXBuildFile; fileRef = B1B444001F67AAB8002FB610 /* reverseString.c */; };
 		B1B444051F67B5CB002FB610 /* fizzBuzz.c in Sources */ = {isa = PBXBuildFile; fileRef = B1B444031F67B5CB002FB610 /* fizzBuzz.c */; };
 		B1B444081F67EEA0002FB610 /* singleNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = B1B444061F67EEA0002FB610 /* singleNumber.c */; };
@@ -108,8 +110,8 @@
 		B1A885C71FB56AC00065B444 /* longestIncreasingPath.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestIncreasingPath.c; sourceTree = "<group>"; };
 		B1A885C81FB56AC00065B444 /* longestIncreasingPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = longestIncreasingPath.h; sourceTree = "<group>"; };
 		B1ACF50A2010885A00142E8C /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
-		B1ACF50B2010885A00142E8C /* mergeTwoBinaryTress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoBinaryTress.h; sourceTree = "<group>"; };
-		B1ACF50C2010885B00142E8C /* mergeTwoBinaryTress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeTwoBinaryTress.c; sourceTree = "<group>"; };
+		B1ACF50B2010885A00142E8C /* mergeTwoBinaryTrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeTwoBinaryTrees.h; sourceTree = "<group>"; };
+		B1ACF50C2010885B00142E8C /* mergeTwoBinaryTrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeTwoBinaryTrees.c; sourceTree = "<group>"; };
 		B1ACF50E2010885B00142E8C /* BST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BST.c; sourceTree = "<group>"; };
 		B1ACF50F2010885B00142E8C /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
 		B1ACF5102010885B00142E8C /* findPeakElement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = findPeakElement.c; sourceTree = "<group>"; };
@@ -125,6 +127,8 @@
 		B1ACF51D2010887A00142E8C /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		B1ACF51E2010887A00142E8C /* StackWithArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackWithArray.c; sourceTree = "<group>"; };
 		B1ACF51F2010887A00142E8C /* StackWithArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackWithArray.h; sourceTree = "<group>"; };
+		B1ACF5212010A0AA00142E8C /* linkedListCycleII.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = linkedListCycleII.c; sourceTree = "<group>"; };
+		B1ACF5222010A0AA00142E8C /* linkedListCycleII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linkedListCycleII.h; sourceTree = "<group>"; };
 		B1B444001F67AAB8002FB610 /* reverseString.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverseString.c; sourceTree = "<group>"; };
 		B1B444011F67AAB8002FB610 /* reverseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseString.h; sourceTree = "<group>"; };
 		B1B444031F67B5CB002FB610 /* fizzBuzz.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fizzBuzz.c; sourceTree = "<group>"; };
@@ -174,8 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				B1ACF50D2010885B00142E8C /* BinarySearch */,
-				B1ACF50C2010885B00142E8C /* mergeTwoBinaryTress.c */,
-				B1ACF50B2010885A00142E8C /* mergeTwoBinaryTress.h */,
+				B1ACF50C2010885B00142E8C /* mergeTwoBinaryTrees.c */,
+				B1ACF50B2010885A00142E8C /* mergeTwoBinaryTrees.h */,
 				B1ACF5142010885B00142E8C /* Tree.c */,
 				B1ACF50A2010885A00142E8C /* Tree.h */,
 				B10FF5481FCE9CAE00E5E495 /* AVL.c */,
@@ -214,6 +218,7 @@
 		B15E91891F580031003DF4AE /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				B15E918A1F580031003DF4AE /* main.m */,
 				B1ACF5172010887A00142E8C /* List&Stack&Queue */,
 				B12E36051FD4F84F00064F0E /* Hash */,
 				B10FF5441FCC0C8E00E5E495 /* Tree */,
@@ -221,7 +226,6 @@
 				B10AEC391FBD6789007BD7D7 /* PriorityQueue(Heap) */,
 				B1DE129A1FBC1D1500DDF351 /* medium */,
 				B1DE12991FBC1D0B00DDF351 /* hard */,
-				B15E918A1F580031003DF4AE /* main.m */,
 				B18986CF1FB3198F00B29DDD /* trappingRainWater.c */,
 				B18986D01FB3198F00B29DDD /* trappingRainWater.h */,
 				B1CA48CF1F7CACA6000DD140 /* shellSort.c */,
@@ -230,8 +234,6 @@
 				B1CA48CD1F7BAA6B000DD140 /* insertionSort.h */,
 				B151E1CE1F73977C009573FB /* isAnagram.c */,
 				B151E1CF1F73977C009573FB /* isAnagram.h */,
-				B151E1CB1F738D70009573FB /* deleteNoe.c */,
-				B151E1CC1F738D70009573FB /* deleteNoe.h */,
 				B151E1C81F737EA6009573FB /* firstUniqChar.c */,
 				B151E1C91F737EA6009573FB /* firstUniqChar.h */,
 				B1A44BA21F72760E00D5C483 /* hashTable.c */,
@@ -290,8 +292,7 @@
 		B1ACF5172010887A00142E8C /* List&Stack&Queue */ = {
 			isa = PBXGroup;
 			children = (
-				B1ACF5182010887A00142E8C /* List.c */,
-				B1ACF5192010887A00142E8C /* List.h */,
+				B1ACF5202010A08800142E8C /* List */,
 				B1ACF51A2010887A00142E8C /* Queue.c */,
 				B1ACF51B2010887A00142E8C /* Queue.h */,
 				B1ACF51C2010887A00142E8C /* Stack.c */,
@@ -300,6 +301,19 @@
 				B1ACF51F2010887A00142E8C /* StackWithArray.h */,
 			);
 			path = "List&Stack&Queue";
+			sourceTree = "<group>";
+		};
+		B1ACF5202010A08800142E8C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B1ACF5182010887A00142E8C /* List.c */,
+				B1ACF5192010887A00142E8C /* List.h */,
+				B1ACF5212010A0AA00142E8C /* linkedListCycleII.c */,
+				B1ACF5222010A0AA00142E8C /* linkedListCycleII.h */,
+				B151E1CB1F738D70009573FB /* deleteNoe.c */,
+				B151E1CC1F738D70009573FB /* deleteNoe.h */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		B1DE12991FBC1D0B00DDF351 /* hard */ = {
@@ -386,7 +400,7 @@
 				B10AEC3C1FBD679F007BD7D7 /* binaryHeap.c in Sources */,
 				B1A44B9B1F70CDCB00D5C483 /* maxProfit.c in Sources */,
 				B15E91AB1F6120BE003DF4AE /* twoSum.c in Sources */,
-				B1ACF5152010885B00142E8C /* mergeTwoBinaryTress.c in Sources */,
+				B1ACF5152010885B00142E8C /* mergeTwoBinaryTrees.c in Sources */,
 				B18986D11FB3198F00B29DDD /* trappingRainWater.c in Sources */,
 				B1ACF5162010885B00142E8C /* Tree.c in Sources */,
 				B1DE129D1FBC22D600DDF351 /* inorderTraversal.c in Sources */,
@@ -394,6 +408,7 @@
 				B15E91AE1F61325F003DF4AE /* hammingDistance.c in Sources */,
 				B12E360B1FD502E900064F0E /* HashQuad.c in Sources */,
 				B15E918B1F580031003DF4AE /* main.m in Sources */,
+				B1ACF5232010A0AA00142E8C /* linkedListCycleII.c in Sources */,
 				B1A44B9E1F70D11000D5C483 /* mergeSortedArray.c in Sources */,
 				B10FF54A1FCE9CAE00E5E495 /* AVL.c in Sources */,
 				B15E91B41F616A85003DF4AE /* encodeAndDecodeTinyURL.c in Sources */,
@@ -402,6 +417,7 @@
 				B1B444081F67EEA0002FB610 /* singleNumber.c in Sources */,
 				B1E0C6FE1F73D98C00E7056B /* topKFrequent.c in Sources */,
 				B151E1CD1F738D70009573FB /* deleteNoe.c in Sources */,
+				B1ACF5242010A47B00142E8C /* List.c in Sources */,
 				B1A44B8C1F69257E00D5C483 /* sumOfTwoIntegers.c in Sources */,
 				B1A44B981F70BC2C00D5C483 /* titleToNumber.c in Sources */,
 				B1E0C6FB1F73C94B00E7056B /* productExceptSelf.c in Sources */,

@@ -14,8 +14,8 @@
 
 #define ElementType int
 
-struct Node;
-typedef struct Node *PtrToNode;
+struct ListNode;
+typedef struct ListNode *PtrToNode;
 typedef PtrToNode List;
 typedef PtrToNode Position;
 

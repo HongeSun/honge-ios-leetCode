@@ -9,11 +9,6 @@
 #include "HashSep.h"
 #define MinTableSize 5
 
-struct ListNode {
-    ElementType Element;
-    Position Next;
-};
-
 typedef Position List;
 //散列表结构包括一个链表数组以及数组中的链表个数，它们在散列表结构初始化时动态分配空间。
 //此时的HashTalbe类型就是指向该结构的指针类型
@@ -59,7 +54,7 @@ HashTable InitializeTable(int TableSize) {
     return H;
 }
 
-Position Find(ElementType Key, HashTable H) {
+Position FindForHashTable(ElementType Key, HashTable H) {
     Position P;
     List L;
     
@@ -74,7 +69,7 @@ Position Find(ElementType Key, HashTable H) {
 
 //这个插入例程多少有些不好，因为计算了两次散列函数
 //如果这些散列例程真的构成程序运行时间的重要部分，这个程序就应该重写
-void Insert(ElementType Key, HashTable H) {
+void InsertForHashTable(ElementType Key, HashTable H) {
     Position Pos, NewCell;
     List L;
     

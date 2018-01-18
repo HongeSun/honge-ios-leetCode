@@ -12,12 +12,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct ListNode ListNode;
-struct ListNode {
-    int val;
-    ListNode *next;
-};
+#include "List.h"
+#define ElementType int
 
-void deleteNode(struct ListNode* node);
+void deleteNode(struct ListNode node);
 
 #endif /* deleteNoe_h */
